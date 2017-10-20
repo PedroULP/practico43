@@ -49,7 +49,7 @@ public class Inhalambrico extends Telefono{
     }
 
     public boolean llamar(long nroDestino){
-        System.out.println("Estoy llamando a "+nroDestino + "...");
+        System.out.println("Estoy llamando a "+nroDestino + "Inhalambrico");
         return true;
     }
     
