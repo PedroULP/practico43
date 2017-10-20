@@ -22,10 +22,10 @@ public class Persona {
         
         public void llamarMensajear (Telefono telefono, long nroDestino, String mensaje)
         {
-            if (telefono instaceof Celular)
+            if (telefono instanceof Celular)
             {
                 Celular c1 = (Celular) telefono;
-                cl.enviarMensaje(nroDestino,mensaje);
+                c1.enviarMensaje(nroDestino,mensaje);
             }
             else 
             {
