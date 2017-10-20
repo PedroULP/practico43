@@ -19,7 +19,7 @@ public class Fijo extends Telefono {
         }
         
         public boolean llamar(long nroDestino){
-        System.out.println("Estoy llamando a "+nroDestino + "...");
+        System.out.println("Estoy llamando a "+nroDestino + "Fijo");
         return true;
         }
 
